@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+#parent{
+     display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 100vh;
+    width: 150vw;
+    position: fixed;
+    
+}
+#c1{
+    position: relative;
+    width: 250px;
+    height: 400px;
+     transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+#c1:hover{
+    z-index: 2;
+    transform: rotate(720deg);
+}
+
+#c2{
+    position: relative;
+    left: -170px;
+    width: 250px;
+    height: 400px;
+     transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+#c2:hover{
+    z-index: 2;
+    transform: rotate(720deg);
+}
+
+#c3{
+    position: relative;
+    left: -320px;
+    width: 250px;
+    height: 400px;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+
+}
+#c3:hover{
+    z-index: 2;
+   transform: rotate(720deg) ;
+}
+
+#c4{
+    position: relative;
+    left: -470px;
+    width: 250px;
+    height: 400px;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+#c4:hover{
+    z-index: 2;
+    transform: rotate(720deg);
+}
+
+#c5{
+    position: relative;
+    left: -620px;
+    width: 250px;
+    height: 400px;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+#c5:hover{
+    z-index:2;
+    transform: rotate(720deg);
+}
+
+#c6{
+    position: relative;
+    left: -770px;
+    width: 250px;
+    height: 400px;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+#c6:hover{
+    z-index:2;
+    transform: rotate(720deg);
+}
+
+#c7{
+    position: relative;
+    left: -920px;
+    width: 250px;
+    height: 400px;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+#c7:hover{
+    z-index:2;
+    transform: rotate(720deg);
+}
